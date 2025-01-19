@@ -5,12 +5,12 @@ on:
     inputs:
       name:
         description: 'Name'
-        default: '4.9_kernel'
+        default: '4.4.302'
         required: true
         type: string
       compiler:
         description: 'Compiler gcc|clang|llvm|other'
-        default: 'gcc'
+        default: 'llvm'
         required: true
         type: string
       aosp-clang:
@@ -30,12 +30,12 @@ on:
         type: string
       kernel-config:
         description: 'Kernel-config'
-        default: 'xi_defconfig'
+        default: 'platina_defconfig'
         required: true
         type: string
       kernel-url:
         description: 'Kernel-url'
-        default: 'https://github.com/linex-17/Limitless.git'
+        default: 'https://github.com/FirmanBell/platinum_kernel_xiaomi_platina.git'
         required: true
         type: string
       kernel-branch:

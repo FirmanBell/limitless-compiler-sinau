@@ -14,7 +14,7 @@ on:
         required: true
         type: string
       compiler:
-        description: 'Compiler | gcc|clang|llvm'
+        description: 'Compiler |gcc|clang|llvm'
         default: 'clang'
         required: true
         type: string
@@ -25,12 +25,12 @@ on:
         type: string
       kernel-url:
         description: 'Kernel-url'
-        default: 'https://github.com/FirmanBell/kernel_xiaomi_platina.git'
+        default: 'https://github.com/FirmanBell/morph.git'
         required: true
         type: string
       kernel-branch:
         description: 'Kernel-branch'
-        default: 'main'
+        default: 'eas'
         required: true
         type: string
       kernel-config:
@@ -40,7 +40,7 @@ on:
         type: string
       kernelsu:
         description: 'KernelSU | false for disable'
-        default: 'curl -LSs "https://raw.githubusercontent.com/rifsxd/KernelSU-Next/next/kernel/setup.sh" | bash -s next'
+        default: 'curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -s v0.7.6'
         required: true
         type: string
       disable-lto:

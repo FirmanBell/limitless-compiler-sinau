@@ -10,11 +10,11 @@ on:
         type: string
       name:
         description: 'Name'
-        default: '4.4-kernel'
+        default: '4.9-kernel'
         required: true
         type: string
       compiler:
-        description: 'Compiler |gcc|clang|llvm'
+        description: 'Compiler | gcc|clang|llvm'
         default: 'clang'
         required: true
         type: string
@@ -25,17 +25,17 @@ on:
         type: string
       kernel-url:
         description: 'Kernel-url'
-        default: 'https://github.com/FirmanBell/morph.git'
+        default: 'https://github.com/linex-17/Limitless.git'
         required: true
         type: string
       kernel-branch:
         description: 'Kernel-branch'
-        default: 'eas'
+        default: 'main'
         required: true
         type: string
       kernel-config:
         description: 'Kernel-config'
-        default: 'platina_defconfig'
+        default: 'xi_defconfig'
         required: true
         type: string
       kernelsu:
@@ -50,7 +50,7 @@ on:
         type: string
       AK3:
         description: 'AnyKernel3'
-        default: 'https://github.com/FirmanBell/AnyKernel3.git'
+        default: 'https://github.com/osm0sis/AnyKernel3'
         required: true
         type: string
 jobs:

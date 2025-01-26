@@ -10,7 +10,7 @@ on:
         type: string
       name:
         description: 'Name'
-        default: '4.9-kernel'
+        default: '4.4-kernel'
         required: true
         type: string
       compiler:
@@ -35,7 +35,7 @@ on:
         type: string
       kernel-config:
         description: 'Kernel-config'
-        default: 'xi_defconfig'
+        default: 'platina_defconfig'
         required: true
         type: string
       kernelsu:
@@ -50,7 +50,7 @@ on:
         type: string
       AK3:
         description: 'AnyKernel3'
-        default: 'https://github.com/osm0sis/AnyKernel3'
+        default: 'https://github.com/FirmanBell/AnyKernel3.git'
         required: true
         type: string
 jobs:

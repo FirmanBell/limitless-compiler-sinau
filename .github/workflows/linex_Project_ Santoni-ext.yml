@@ -1,5 +1,5 @@
 # linex Project
-name: linext Compiler v2.4-ext
+name: linext Compiler Santoni-ext
 on:
   workflow_dispatch:
     inputs:

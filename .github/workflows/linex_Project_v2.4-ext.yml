@@ -25,7 +25,7 @@ on:
         type: string
       kernel-url:
         description: 'Kernel-url'
-        default: 'https://github.com/FirmanBell/eas.git'
+        default: 'https://github.com/FirmanBell/Eas.git'
         required: true
         type: string
       kernel-branch:

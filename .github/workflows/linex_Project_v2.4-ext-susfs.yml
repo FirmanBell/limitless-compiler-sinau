@@ -10,7 +10,7 @@ on:
         type: string
       name:
         description: 'Name'
-        default: '4.4-kernel'
+        default: '4.4.302'
         required: true
         type: string
       compiler:
@@ -20,12 +20,12 @@ on:
         type: string
       aosp-clang:
         description: 'Clang | false for disable'
-        default: '20'
+        default: '21'
         required: true
         type: string
       kernel-url:
         description: 'Kernel-url'
-        default: 'https://github.com/FirmanBell/kernel_xiaomi_platina.git'
+        default: 'https://github.com/FirmanBell/Loneliness.git'
         required: true
         type: string
       kernel-branch:
